@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/devpatelsm4/Desktop/Programming for Problem Solving/Practical1/hello'
+relocations:     []
+...
