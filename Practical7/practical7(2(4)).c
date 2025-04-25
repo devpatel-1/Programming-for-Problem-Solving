@@ -2,25 +2,20 @@
 // Code 4 :- With Arguments and a Return Value
 
 #include <stdio.h>
-#define PI 3.14
 
-
-float areaOfCircle (float radius) {
-    
-    return PI * radius * radius;
-    
-}
+float area(float r);
 
 int main () {
-    
-    float r, area;
-    printf("Enter the radius: ");
-    scanf("%f", &r);
-    
-    area = areaOfCircle(r);
-    printf("Area = %.2f\n", area);
-    
-    return 0;
-    
+
+   float radius, result;
+   printf("Enter radius of circle: ");
+   scanf("%f", &radius);
+   result = area(radius);
+   printf("Area of circle: %.2f\n", result);
+   return 0;
+
 }
 
+float area (float r) {
+    return 3.14 * r * r;
+}
