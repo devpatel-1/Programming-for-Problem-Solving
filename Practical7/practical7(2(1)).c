@@ -1,23 +1,22 @@
 // First code :- No Arguments and No Return Value 
 
 #include <stdio.h>
-#define PI 3.1415
 
-void areaOfCircle () {
-    
-    float radius, area;
-    printf("Enter radius: ");
-    scanf("%f", &radius);
-    
-    area = PI * radius * radius;
-    
-    printf("Area = %.2f\n", area);
-    
-}
+void area();
 
 int main () {
-    
-    areaOfCircle();
-    return 0;
-    
+
+   area();
+   return 0;
+
+}
+
+void area () {
+
+   float radius, result;
+   printf("Enter radius of circle: ");
+   scanf("%f", &radius);
+    result = 3.14 * radius * radius;
+    printf("Area of circle: %.2f\n", result);
+
 }
