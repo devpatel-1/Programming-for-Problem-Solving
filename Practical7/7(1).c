@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Function prototype
 int isPrime(int num);
 
 int main () {
@@ -9,6 +10,7 @@ int main () {
    printf("Enter a number: ");
    scanf("%d", &number);
 
+   // Function calling
    if (isPrime(number)) {
         printf("Prime number.\n");
    } else {
@@ -17,7 +19,7 @@ int main () {
 
 }
 
-
+// Function definition
 int isPrime(int num) {
 
     int i;
