@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-
-long long factorial(int n) {
-
+int factorial(int n) {
     if (n == 0 || n == 1) {
         return 1;
     } else {
@@ -11,20 +9,16 @@ long long factorial(int n) {
 }
 
 int main () {
-
+   
     int num;
-    long long result;
 
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    if (num < 0) {
-        printf("Factorial is not defined for nagetive numbers.\n");
+    int result = factorial(num);
 
-    }else {
-        result = factorial(num);
-        printf("Factorial of %d is %lld\n", num, result);
-    }
+    printf("Factorial of %d is %d\n", num, result);
 
     return 0;
+
 }
