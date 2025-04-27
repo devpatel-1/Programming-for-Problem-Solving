@@ -1,24 +1,26 @@
 #include <stdio.h>
 
-int factorial(int n) {
+int factorial (int n) {
 
     int result = 1;
     for (int i = 1; i <= n; i++) {
-        result *= i;
+        result = result * i;
     }
     return result;
+
 }
 
 int main () {
+
     int num;
 
-    printf("Enter the number: ");
+    printf("Enter a number: ");
     scanf("%d", &num);
 
-    if (num < 0) {
-        printf("Factorial not defined for negative numbers.\n");
-    } else {
-        printf("Factorial of %d is %d\n", num, factorial(num));
-    }
+    int result = factorial(num);
+
+    printf("Factorial of %d is %d\n", num, result);
+
     return 0;
+
 }
