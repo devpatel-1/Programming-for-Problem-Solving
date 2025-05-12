@@ -6,10 +6,12 @@
 // of Engineering” as output using any online websites / tools given below:
 // onlinegdb.com, programiz.com, etc…
 
-#include<stdio.h>
-int main(){
-    printf("Welcome to Ganpat University - U.V.Patel College of Engineering");
+#include <stdio.h>
+
+int main () {
+
+    printf("Welcome to Ganpat University - U. V. Patel College of Engineering\n");
+
     return 0;
-}     
 
-
+}
