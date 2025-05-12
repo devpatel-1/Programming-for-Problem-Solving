@@ -15,18 +15,21 @@
 // 16\\01\\2025
 
 
-#include<stdio.h>
-int main(){
-    printf("Hello \nWorld\n");
-    printf("**************\n* Hello World* \n**************\n");
-    printf("\"16/01/2025\"\n");
-    printf("\"Hello World\"\n");
-    printf("16\\\\01\\\\2025\n");
-    printf("\n");
-    printf("Name : Dev A Patel\n");
-    printf("Phone no : 7990175116\n");
-    printf("Address : Mehsana\n");
-    printf("Birth Date : 09/09/2006\n");
+#include <stdio.h>
 
-    return 0;
+int main () {
+
+   printf("Hello \nWorld\n");
+   printf("**************\n* HeLLo World* \n**************\n");
+   printf("\""16/1/2025\"\n");
+   printf("\""Hello World\"\n");
+   printf("16\\\\01\\\\2025\n");
+   printf("\n");
+   printf("Name : Dev A Patel\n");
+   printf("Phone no : 7990175116\n");
+   printf("Address : Mehsana\n");
+   printf("Birth Date : 09/09/2006\n");
+
+   return 0;
+
 }
