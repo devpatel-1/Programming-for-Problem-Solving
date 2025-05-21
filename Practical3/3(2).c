@@ -3,18 +3,17 @@
 
 #include <stdio.h>
 
-int main() {
+int main () {
 
-  // Example of Implicit Typecasting
   int a = 10;
   float b = a;
-
-  printf("Value of b :%f\n", b); // output is 10.000000
+  
+  pritnf("Implicit type casting: a = %d, b = %f\n", a, b);
 
   float x = 10.99;
   int y = x;
 
-  printf("Value of y : %d\n", y); // output is 10
+  printf("Explicit type casting: x = %f, y = %d\n", x, y);
 
   return 0;
   
