@@ -7,31 +7,34 @@
 
 #include <stdio.h>
 
-int main()
-{
-    int A, B, intSum;
-    float C, D, floatSum;
-    char X, Y, charSum;
+int main () {
 
-    // Taking input from user
-    printf("Enter two integer values: ");
-    scanf("%d %d", &A, &B);
+    // declare variables
+   int a, b, intSum;
+   float c, d, floatSum;
+   char x, y, charSum;
+ 
+   // input taking
+   printf("Enter two integer values: ");
+   scanf("%d %d", &a, &b);
 
-    printf("Enter two float values: ");
-    scanf("%f %f", &C, &D);
+   printf("Enter two float values: ");
+   scanf("%f %f", &c, &d);
 
-    printf("Enter two characters: ");
-    scanf(" %c %c", &X, &Y); // Space before %c to handle newline character
+   printf("Enter two character values: ");
+   scanf(" %c %c", &x, &y);
 
-    // Calculating sums
-    intSum = A + B;
-    floatSum = C + D;
-    charSum = X + Y;
+   // sum calculation
+   intSum = a + b;
+   floatSum = c + d;
+   charSum = x + y;
 
-    // Displaying results
-    printf("The sum of integer variables %d and %d is: %d\n", A, B, intSum);
-    printf("The sum of float variables %.2f and %.2f is: %.2f\n", C, D, floatSum);
-    printf("The sum of character variables '%c' and '%c' is: %d\n", X, Y, charSum);
+   // display results
+   printf("The sum of integer variables A and B is: %d\n", intSum);
+   printf("The sum of float variables C and D is: %.2f\n", floatSum);
+   printf("The sum of character variables X and Y is: %d\n", charSum);
 
-    return 0;
+   return 0;
+
+
 }
