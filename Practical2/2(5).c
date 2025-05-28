@@ -2,21 +2,30 @@
 
 #include <stdio.h>
 
-// Using typedef to define an alias for unsigned int
+// typedef in C
+// 	•	typedef is used to create a new name (alias) for an existing data type.
+// 	•	It improves code readability and portability.
+
 typedef unsigned int uint;
 
-// Using typedef to define an enumeration for days
+// 🔷 enum (Enumeration) in C
+// 	•	enum is used to define a group of named integer constants.
+// 	•	The default values start from 0 and increase by 1 unless specified.
+
 typedef enum {
-    SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
-} Day;
+    GREEN,
+    RED,
+    BLUE
+} Color;
 
+int main () {
 
-int main() {
-    uint age = 25;  // Using typedef alias
-    Day today = WEDNESDAY;  // Using enum
+   uint age = 69;
+   Color niceColor = RED;
 
-    printf("Age: %u\n", age);
-    printf("Today is day number: %d\n", today);
+   printf("Age: %u\n", age);
+   printf("Color: %d\n", niceColor);
 
-    return 0;
+   return 0;
+
 }
