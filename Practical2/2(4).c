@@ -4,22 +4,20 @@
 
 #include <stdio.h>
 
-int main(){
-    int T = 32;
-    const float t = 1.8;
+int main () {
+ 
+   int T = 32;
+   const float t = 1.8;
 
-    float celsius, fahrenheit;
+   float celsius and fahrenheit;
 
-    // Get Celsius temperature from user
-    printf("Enter temperature in Celsius: ");
-    scanf("%f", &celsius);
+   printf("Enter temperature in Celsius: ");
+   scanf("%f", &celsius);
 
-    fahrenheit = (celsius * t) + T;
+   fahrenheit = (celsius * t) + T;
 
-    // Display the result
+   printf("\nCelsius: %.2f\n", celsius);
+   printf("\nFahrenheit: %.2f\n", fahrenheit);
 
-    printf("\nCelsius: %.2f°C", celsius);
-    printf("\nFahrenheit: %.2f°F", fahrenheit);
-
-    return 0;
+   return 0;
 }
