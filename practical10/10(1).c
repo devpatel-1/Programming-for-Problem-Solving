@@ -12,7 +12,7 @@ int main() {
     }
 
     // 2. Write to the file
-    printf("Enter some text to write to the file: ");
+    printf("Enter some text to write in File: ");
     fgets(data, sizeof(data), stdin);
     fprintf(file, "%s", data);
     fclose(file);  // Close after writing
