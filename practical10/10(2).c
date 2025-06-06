@@ -10,7 +10,7 @@ int main () {
         printf("Error opening file!\n");
         return 1;
     }
-
+    c
     // 2. Use fputrc() to write a single character
     fputc('H', file);
     fputc('i', file);
