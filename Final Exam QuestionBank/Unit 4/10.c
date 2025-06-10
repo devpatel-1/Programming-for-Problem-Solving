@@ -2,24 +2,21 @@
 
 #include <stdio.h>
 
-struct Student
-{
-    int roll;
+struct Student {
+    int rollNo;
     float marks;
 };
 
-struct Student getStudent () {
-
+struct Student getStudent() {
     struct Student s;
 
     printf("Enter roll number: ");
-    scanf("%d", &s.roll);
+    scanf("%d", &s.rollNo);
 
     printf("Enter marks: ");
     scanf("%f", &s.marks);
 
     return s;
-
 }
 
 int main () {
@@ -28,15 +25,12 @@ int main () {
 
     student1 = getStudent();
 
-    printf("\nStudent Details:\n");
-    printf("Roll Number: %d\n", student1.roll);
+    peintf("Roll Number: %d\n", student1.rollNo);
     printf("Marks: %.2f\n", student1.marks);
 
     return 0;
 
 }
-
-
 // Explanation:
 // 	•	struct Student is defined to hold roll number and marks.
 // 	•	getStudent() is a function that collects input and returns a structure object.
