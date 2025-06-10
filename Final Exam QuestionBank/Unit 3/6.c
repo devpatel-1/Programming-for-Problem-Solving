@@ -1,20 +1,20 @@
 // Create a character array of size 10 and store a string in it. Print it using loops.
 
 #include <stdio.h>
- 
+
 int main () {
 
     char str[10] = "Welcome";
     int i;
 
-    printf("Characters in the string: \n");
+    printf("The string is: ");
     for (i = 0; str[i] != '\0'; i++) {
-        printf("%c\n", str[i]);
+        printf("%c", str[i]);
     }
- 
-    return 0;
-}
 
+    return 0;
+
+}
 
 
 // Explanation:
