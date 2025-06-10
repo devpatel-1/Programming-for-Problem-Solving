@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int power (int x, int y) {
+int power(int x, int y) {
 
     if (y == 0) {
         return 1;
@@ -13,14 +13,16 @@ int power (int x, int y) {
 
 int main () {
 
-    int base, exponent;
-    printf("Enter base and exponent: ");
-    scanf("%d %d", &base, &exponent);
+   int base, exponent;
 
-    int result = power (base, exponent);
-    printf("%d raised to the power of %d is %d\n", base, exponent, result);
+   printf("Enter base and exponent: ");
+   scanf("%d %d", &base, &exponent);
 
-    return 0;
+   int result = power(base, exponent);
+
+   printf("Result of %d raised to the power of %d is: %d\n", base, exponent, result);
+
+   return 0;
 
 }
 
