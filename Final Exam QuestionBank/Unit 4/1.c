@@ -1,33 +1,30 @@
 // Write a function to swap two variables using pointers
 
 #include <stdio.h>
-
-void swap(int *a, int *b) {
-
+ 
+void swap (int *a, int *b) {
     int temp;
-    temp = *a;
-    temp = *b;
-    *b = temp;
-
+    temp = *a;  // Store the value at address a in temp
+    *a = *b;    // Assign the value at address b to address a
+    *b = temp;  // Assign the value in temp to address b
 }
 
 int main () {
 
-   int x, y;
+    int x, y;
 
-   printf("Enter two numbers: ");
-   scanf("%d %d", &x, &y);
+    printf("Enter two numbers: ");
+    scanf("%d %d", &x, &y);
 
-   printf("Before swapping: x = %d, y = %d\n", x, y);
+    printf("Befor swap: x = %d, y = %d\n", x, y);
 
-   swap(&x, &y);
+    swap(&x, &y);  // Pass the addresses of x and y to the swap function
 
-   printf("After swapping: x = %d, y = %d\n", x, y);
+    printf("After swap: x = %d, y = %d\n", x, y);
 
-   return 0;
+    return 0;
 
 }
-
 
 
 // Explanation:
