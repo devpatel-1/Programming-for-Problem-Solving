@@ -5,21 +5,20 @@
 int main () {
 
     int numbers[5], i;
-    int *ptr;
-    int i;
+    int *ptr; // Pointer to the array
 
     ptr = numbers;
 
     printf("Enter 5 numbers:\n");
     for (i = 0; i < 5; i++) {
-        scanf("%d", ptr + i);
+        scanf("%d", ptr + i); // Using pointer arithmetic to input values
     }
 
     printf("You entered:\n");
     for (i = 0; i < 5; i++) {
-        printf("%d\n", *(ptr + i));
+        printf("%d ", *(ptr + i)); // Using dereferencing to print values
     }
-    
+
     return 0;
 
 }
