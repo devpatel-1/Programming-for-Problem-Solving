@@ -10,11 +10,10 @@ int main () {
    scanf("%d", &num);
 
    while (i <= 10) {
-        printf("%d x %d = %d\n", num, i, num * i);
-        i++;
+      printf("%d x %d = %d\n", num, i, num * i);
+      i++;
    }
 
    return 0;
 
 }
-
