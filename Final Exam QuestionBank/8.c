@@ -10,7 +10,8 @@ int main () {
         sum = sum + i;
     }
 
-    printf("Sum of first 10 natural numbers is: %d\n", sum);
+    printf("Sum of first 10 natural number is: %d\n", sum);
 
     return 0;
+
 }
