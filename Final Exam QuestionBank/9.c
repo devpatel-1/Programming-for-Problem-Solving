@@ -8,15 +8,14 @@ int main () {
 
     do {
         if (i % 2 != 0) {
-            printf("%d\n", i);
+            printf("%d ", i);
         }
         i++;
-    } while (i <= 10);
+    }while (i <= 10);
 
     return 0;
-
+    
 }
-
 
 // Explanation:
 // 	•	We initialize i = 1.
