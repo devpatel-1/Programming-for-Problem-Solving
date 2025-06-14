@@ -11,17 +11,16 @@ int findMax (int arr[], int size) {
             max = arr[i];
         }
     }
-    
-    return max; 
+
+    return max;
 
 }
 
 int main () {
 
+   int arr[100], n, i;
 
-    int arr[100], n, i;
-
-    printf("Enter the number of elements: ");
+   printf("Enter the number of elements: ");
     scanf("%d", &n);
 
     printf("Enter elements: \n");
@@ -32,9 +31,9 @@ int main () {
     int maxValue = findMax(arr, n);
     printf("Maximum value in the array is: %d\n", maxValue);
 
-    return 0;
-}
+    return 0;                           
 
+}
 
 // Explanation:
 // 	•	The function findMax takes two parameters: the array and its size.
