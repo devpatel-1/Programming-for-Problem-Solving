@@ -6,7 +6,7 @@ int main () {
 
     int arr[100], n, i, sum = 0;
 
-    printf("Enter the number of element: ");
+    printf("Enter the number of elements: ");
     scanf("%d", &n);
 
     printf("Enter elements: \n");
@@ -18,7 +18,7 @@ int main () {
     printf("Sum of all elements in array: %d\n", sum);
 
     return 0;
-
+    
 }
 
 
