@@ -25,12 +25,10 @@ int main () {
     } else {
         printf("The string '%s' is not a palindrome.\n", str);
     }
-
+ 
     return 0;
 
 }
-
-
 // Explanation:
 // •	A palindrome reads the same forward and backward (e.g., “madam”, “level”).
 // •	We compare the first and last characters, then move inward.
